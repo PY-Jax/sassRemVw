@@ -80,7 +80,7 @@ html {
   border-color: #eee;
   box-sizing: border-box; }
   .mid .banner {
-    width: 10rem;
+    width: 100%;
     height: 5.3333333333rem;
     background: #3d979c;
     font-size: 0.4533333333rem;
