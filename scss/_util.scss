@@ -32,7 +32,7 @@ $max-device-width: 768px;
         font-size: $min-device-width / $blocks;
     }
 
-    /* 最大宽度定义 */
+    /* 最大宽度定义 data-content-max*/
     &[data-content-max] {
         body[data-content-max] {
             @include container-max-width();

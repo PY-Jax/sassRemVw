@@ -13,5 +13,6 @@
 * 命令行找到css目录路径（路径下需要先创建.scss文件）
 * 输入 sass test.scss  test.css 回车即生成.test.css.map和test.css两个文件
 * 单个文件的监听，输入：sass  --watch  test.scss:test.css 回车即监听成功
+* 如果要scss文件和css文件分离，sass和css文件夹共同的上级路径下输入：sass  --watch  scss/test.scss:css/test.css
 ### 注意：在页面中当然还是引用对应的.css文件
 ### demo：https://py-jax.github.io/sassRemVw/index.html
